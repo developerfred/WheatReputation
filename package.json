@@ -13,6 +13,10 @@
     "publish:patch": "buidler publish patch"
   },
   "dependencies": {
+    "3box": "^1.20.3",
+    "@aragon/connect": "^0.4.2",
+    "@aragon/connect-thegraph-tokens": "^0.4.2",
+    "@aragon/connect-thegraph-voting": "^0.4.2",
     "@aragon/os": "^4.4.0"
   },
   "devDependencies": {
