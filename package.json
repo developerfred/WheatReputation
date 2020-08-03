@@ -1,4 +1,6 @@
 {
+  "name": "wheat-reputation-dao",
+  "version": "0.0.1",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
@@ -7,8 +9,22 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "3box": "^1.20.3",
+    "@aragon/connect": "^0.5.0",
+    "@aragon/connect-react": "^0.5.0",
+    "@aragon/connect-thegraph-tokens": "^0.4.2",
+    "@aragon/connect-thegraph-voting": "^0.4.2",
+    "@aragon/connect-voting": "^0.5.0",
+    "@emotion/core": "^10.0.28",
+    "@walletconnect/web3-provider": "^1.1.0",
+    "antd": "^4.5.2",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "retro-ui": "^0.0.8",
+    "rimble-ui": "^0.14.0",
+    "styled-components": "^5.1.1",
+    "web3": "^1.2.11",
+    "web3modal": "^1.9.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-react": "^1.8.2",
